@@ -4,70 +4,70 @@
 
 .container {
     padding: 0 10px;
-  }
+}
   
-  .row {
-    display: flex;
-    flex-direction: column;
-    padding: 1em 10px;
-  }
-  
-  [class^=col] {
-    margin-top: 10px;
-    flex-basis: 100%;
-    min-height: 25px;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .theme.col-1 {
-    background-color: $purple;
-  }
-  
-  .theme.col-2 {
-    background-color: $error;
-  }
-  
-  .theme.col-3 {
-    background-color: $red;
-  }
-  
-  .theme.col-4 {
-    background-color: $color-primary;
-  }
-  
-  .theme.col-5 {
-    background-color: $color-secondary;
-  }
-  
-  .theme.col-6 {
-    background-color: complement($color-primary);
-  }
-  
-  .theme.col-7 {
-    background-color: complement($error);
-  }
-  
-  .theme.col-8 {
-    background-color: complement($color-secondary);
-  }
-  
-  .theme.col-9 {
-    background-color: complement($red);
-  }
-  
-  .theme.col-10 {
-    background-color: $color-secondary;
-  }
-  
-  .theme.col-11 {
-    background-color: $color-primary;
-  }
-  
-  .theme.col-12 {
-    background-color: complement($purple);
-  }
-  
-  .card {
-    flex-basis: 100%;
-  }
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.theme.col-1 {
+  background-color: $purple;
+}
+
+.theme.col-2 {
+  background-color: $error;
+}
+
+.theme.col-3 {
+  background-color: $red;
+}
+
+.theme.col-4 {
+  background-color: $color-primary;
+}
+
+.theme.col-5 {
+  background-color: $color-secondary;
+}
+
+.theme.col-6 {
+  background-color: complement($color-primary);
+}
+
+.theme.col-7 {
+  background-color: complement($error);
+}
+
+.theme.col-8 {
+  background-color: complement($color-secondary);
+}
+
+.theme.col-9 {
+  background-color: complement($red);
+}
+
+.theme.col-10 {
+  background-color: $color-secondary;
+}
+
+.theme.col-11 {
+  background-color: $color-primary;
+}
+
+.theme.col-12 {
+  background-color: complement($purple);
+}
+
+.card {
+  flex-basis: 100%;
+}
