@@ -21,51 +21,51 @@
   }
   
   .theme.col-1 {
-    background-color: #927bc1;
+    background-color: $purple;
   }
   
   .theme.col-2 {
-    background-color: #fd7856;
+    background-color: $error;
   }
   
   .theme.col-3 {
-    background-color: #deb2ee;
+    background-color: $red;
   }
   
   .theme.col-4 {
-    background-color: #7ee6fd;
+    background-color: $color-primary;
   }
   
   .theme.col-5 {
-    background-color: #88d9a0;
+    background-color: $color-secondary;
   }
   
   .theme.col-6 {
-    background-color: #4da2bb;
+    background-color: complement($color-primary);
   }
   
   .theme.col-7 {
-    background-color: #ec9fa3;
+    background-color: complement($error);
   }
   
   .theme.col-8 {
-    background-color: #fd9f85;
+    background-color: complement($color-secondary);
   }
   
   .theme.col-9 {
-    background-color: #e4757a;
+    background-color: complement($red);
   }
   
   .theme.col-10 {
-    background-color: #63cc82;
+    background-color: $color-secondary;
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $color-primary;
   }
   
   .theme.col-12 {
-    background-color: #80e8d1;
+    background-color: complement($purple);
   }
   
   .card {
